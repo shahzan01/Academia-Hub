@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { AiOutlineMenu, AiOutlineShoppingCart } from "react-icons/ai";
 import { BsChevronDown } from "react-icons/bs";
-import logo from "../../assets/Logo/Logo-Full-Light.png";
+import logo from "../../assets/Logo/logo_full_dark.png";
 import { NavbarLinks } from "../../data/navbar-links";
 import { apiConnector } from "../../services/apiconnector";
 import { categories } from "../../services/apis";
@@ -175,9 +175,7 @@ function Navbar() {
               {!token && (
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-y-4 md:gap-y-0 md:gap-x-4">
                   <Link to="/login" onClick={closeMobileMenu}>
-                    <button
-                      className="rounded-md px-4 w-[90px] py-2 transition duration-300 hover:scale-95 bg-yellow-50 text-black hover:bg-richblack-800 hover:text-white"
-                    >
+                    <button className="rounded-md px-4 w-[90px] py-2 transition duration-300 hover:scale-95 bg-yellow-50 text-black hover:bg-richblack-800 hover:text-white">
                       Log In
                     </button>
                   </Link>

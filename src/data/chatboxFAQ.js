@@ -28,11 +28,11 @@ const faqData = [
   },
   {
     question: "What is your name?",
-    answer: "I am the StudyNotion chatbot, here to help you with your queries.",
+    answer: "I am the AcademiaHub chatbot, here to help you with your queries.",
   },
   {
     question: "Who created you?",
-    answer: "I was created by the StudyNotion team to assist users like you.",
+    answer: "I was created by the AcademiaHub team to assist users like you.",
   },
   {
     question: "What can you do?",
@@ -42,7 +42,7 @@ const faqData = [
   {
     question: "How old are you?",
     answer:
-      "I’m as old as the StudyNotion platform. Always learning and improving!",
+      "I’m as old as the AcademiaHub platform. Always learning and improving!",
   },
   {
     question: "Tell me a joke.",
@@ -56,7 +56,7 @@ const faqData = [
   {
     question: "What is your favorite color?",
     answer:
-      "I like all colors, but StudyNotion's theme colors are my favorite.",
+      "I like all colors, but AcademiaHub's theme colors are my favorite.",
   },
   {
     question: "How can I contact support?",
@@ -116,7 +116,7 @@ const faqData = [
   {
     question: "What’s the weather like?",
     answer:
-      "I'm not connected to a weather service, but it’s always sunny in StudyNotion land!",
+      "I'm not connected to a weather service, but it’s always sunny in AcademiaHub land!",
   },
   {
     question: "Can you sing?",
@@ -192,7 +192,7 @@ const faqData = [
   {
     question: "What’s your purpose?",
     answer:
-      "To assist users like you with questions about StudyNotion and learning!",
+      "To assist users like you with questions about AcademiaHub and learning!",
   },
   {
     question: "Can I delete my account?",
