@@ -15,7 +15,7 @@ const Chatbot = () => {
   // Configure Fuse.js
   const fuse = new Fuse(faqData, {
     keys: ["question"], // Search only in the "question" field
-    threshold: 0.4, // Adjust sensitivity (lower is stricter)
+    threshold: 0.2, // Adjust sensitivity (lower is stricter)
   });
 
   useEffect(() => {
@@ -39,7 +39,7 @@ const Chatbot = () => {
       const botResponse =
         results.length > 0
           ? results[0].item.answer
-          : "Sorry, I can only answer questions about courses, projects, & return policy.";
+          : "Sorry, I can not understand your query.";
 
       setMessages([
         ...messages,
